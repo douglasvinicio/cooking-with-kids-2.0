@@ -1,0 +1,22 @@
+/*
+Cooking With Kids - Group Project
+Filename: styles.css
+Made by: Douglas Vinicio, Patrick Brennan, Jessica Landry and Paul Szostak
+*/
+/* Using recipe pictures as links to specific pages */
+* {
+  background-color: #e6e6e6;
+}
+
+h1,h2,h3,h4,p{
+text-align: center;
+}
+
+/* table styling */
+table,th,td {
+  width:100%;
+  padding: 5px;
+  border: 1px solid black;
+  max-width: 400px;
+}
+

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Register to Cooking With Kids website." />
+    <meta name="keywords" content="cooking with kids, cooking, kids, recipes for kids, recipes, register, register page" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="style/styles.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/spatula-favicon.png" type="image/x-icon" />
+    <!-- Title -->
+    <title>Cooking With Kids - Register</title>
+    <style>
+
+        .text-input label {
+            display: inline-block;
+            width: 180px;
+            text-align: start;
+        }
+        
+        </style>
+</head>
+
+<body>
+
+<div class="content"> <!-- set entire page (except header) to be contained within this content divider -->
+
+    <!-- Beginning of the Header Scetion -->
+    <header>
+        <img class="home-background" src="images/header-banner.jpg" alt="Cooking With Kids" /> <!-- main logo used for header (960 pixels wide) -->
+    <!-- Navbar with style applied for the dropdown menu -->
+    <nav class="navbar">
+            <a href="index.html">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">About
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="about/contact-us.html">Contact us</a>
+                    <a href="about/our-mission.html">Our Mission</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Recipes
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="recipes/generic-recipes.html">Generic</a>
+                    <a href="recipes/vegetarian-recipes.html">Vegetarian</a>
+                    <a href="recipes/gluten-free-recipes.html">Gluten-Free</a>
+                </div>
+            </div>
+            <a href="health-education.html">Health Education</a>
+            <a href="about/faq.html">FAQ</a>
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+        </nav>
+    </header>
+
+       <section class="form">
+                    <form id="register-new-user" action="#" method="POST">
+                        <fieldset>
+                            <legend><h2>Not a member yet? </h2></legend>
+                            <p style="text-align: left;">Don't worry, we have plenty of space! <br> Just <b>register</b> using the form below.</p>
+                            <!-- Personal info section of the form -->
+                            <div class="text-input">
+                            <fieldset>
+                                <legend>Personal Info:</legend>
+                                <label for="first-name">First Name</label>
+                                <input type="text" name="first-name" id="first-name">
+                                <br>
+                                <label for="middle-name">Middle Name</label>
+                                <input type="text" name="middle-name" id="middle-name">
+                                <br>
+                                <label for="last-name">Last Name</label>
+                                <input type="text" name="last-name" id="last-name">
+                                <br>
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="email">
+                                <br>
+                                <label for="birthday">Birthday</label>
+                                <input id="birthday" type="date" name="month" min="1910-01-01" max="2002-12-31">
+                            </fieldset>
+                        </div>
+                            <fieldset>
+                                <legend>Select a gender</legend>
+                                <input type="radio" id="male" name="gender" value="male">
+                                <label for="male">Male</label>
+                                <input type="radio" id="female" name="gender" value="female">
+                                <label for="female">Female</label>
+                                <input type="radio" id="other" name="gender" value="other">
+                                <label for="other">Other</label>
+                            </fieldset>
+                            <!-- Password section of the form -->
+                            <div class="text-input">
+                            <fieldset>
+                                <legend>Password</legend>
+                                <label for="password">Choose a password</label>
+                                <input id="password" type="password">
+                                <br>
+                                <label for="confirm-password">Re-type your password</label>
+                                <input id="confirm-password" type="password" >
+                            </fieldset>
+                            <!-- Location section of the form -->
+                            <fieldset>
+                                <legend>Location</legend>
+                                <label for="street-adress">Street Address</label>
+                                <input id="street-adress" type="text" name="street-adress">
+                                <br>
+                                <label for="city">City</label>
+                                <input type="text" name="city" id="city">
+                                <br>
+                                <label for="country">Country</label>
+                                <input type="text" name="country" id="country">
+                            </fieldset>
+                        </div>
+                            <!-- Extra information of the form -->
+                            <fieldset>
+                                <legend>Select one or more of the options:</legend>
+                                <input type="checkbox" id="parent" name="parent" value="Parent">
+                                <label for="parent"> I'm a parent</label><br>
+                                <input type="checkbox" id="uncle-aunt" name="uncle-aunt" value="Uncle-aunt">
+                                <label for="uncle-aunt"> I'm an uncle or aunt</label><br>
+                                <input type="checkbox" id="grand-parent" name="grand-parent" value="Grand-parent">
+                                <label for="grand-parent"> I'm a grand-parent</label><br>
+                                <input type="checkbox" id="visitor" name="visitor" value="visitor">
+                                <label for="visitor">Rather not answer</label><br>
+                            </fieldset>
+                            <fieldset>
+                                <legend>How many kids?</legend>
+                                <p>
+                                    <label>Number of kids</label>
+                                    <select id="number-of-kids">
+                                        <option value="0">None</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                        <option value="4">Four</option>
+                                        <option value="5">Five</option>
+                                        <option value="#">More than 5</option>
+                                    </select>
+                                </p>
+                            </fieldset>
+                            <!-- Submit button -->
+                            <br>
+                            <input type="button" onclick="alert('You are now registered! Congratulations!')"
+                                value="Register!">
+                            </fieldset>
+                    </form>
+                </section>
+
+                <footer style="text-align: center;">
+                    <h5><a href="#top">Back to Top</a></h5>
+                <a href="https://www.facebook.com/"><img src="images/assets/fb_logo_small.png" style="width: 30px; height: 30px;" alt="Facebook page" /></a>
+                <a href="https://www.pinterest.com/"><img src="images/assets/pinterest_logo_small.png" style="width: 30px; height: 30px;" alt="Pinterest page"/></a>
+                <a href="https://www.instagram.com/"><img src="images/assets/insta_logo_small.png" style="width: 30px; height: 30px;" alt="Instagram page"/></a>
+                <a href="https://www.twitter.com/"><img src="images/assets/twitter_logo_small.png" style="width: 30px; height: 30px;" alt="Twitter Page"/></a><br />
+                    <small style="text-align: center;">
+                    <i>&copy; 2020 Cooking With Kids. Website Design by Douglas Vincio, Paul Szostak, Patrick Brennan, and Jessica Landry.</i>
+                </small>
+                </footer>
+        </div>  
+    </body>
+</html>
