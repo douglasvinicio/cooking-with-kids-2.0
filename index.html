@@ -29,7 +29,7 @@
     <header>
         <div class="d-none d-lg-block">
             <img class="banner" src="images/header-banner.jpg" alt="Cooking With Kids" /></div>
-        <!-- start of navbar container -->
+        <!-- Start of navbar container -->
         <div class="mynav">
             <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
                 <a class="navbar-brand d-lg-none" href="/index.html"><img class="nav-image" src="images/cooking_with_kids_logo.png" alt="Cooking With Kids" /></a>
@@ -73,47 +73,73 @@
     </header>
 
     <!-- Thumbinals of the home images -->
-    <!-- First Image Section -->
-
-    <!-- End of the Form and the first row -->
-    <!-- Second Image Section and Second row  -->
-
     <div class="container">
+
+            <div class="row">
+
+                    <!-- Search Form -->
+                    <section class="col">
+                        <fieldset>
+                            <legend>
+                                <h3>Search our website</h3>
+                            </legend>
+                            <form class="text-center" action="search">
+                                <input class="form-control form-control-lg" type="text" placeholder="Let's find some recipes.."><br>
+                                <button type="button" class="btn btn-secondary">Search</button>
+                            </form>
+                        </fieldset>
+                    </section>
+                    </div>
+            
         <div class="row">
-
-            <div class="col">
-
-                <img src="images/home-page/home-image-1.jpg" class="card-image" alt="Dad teaching son how to cook healthy recipe">
-                <h2>Healthy Recipes</h2>
-                <p>Kid-pleasing, delicious and full of nutritious ingredients.</p>
-            </div>
-
-            <div class="col-md">
-                <img src="images/home-page/home-image-2.jpg" class="card-image" alt="Dad cooking with his daughter, having fun">
-                <h3>Bond with your loved ones</h3>
-                <p>Create meaningful experiences, while passing on skills and secret family recipes from generation to generation.</p>
-            </div>
-            <!-- Third Image Section -->
-            <div class="col-md">
-                <img src="images/home-page/home-image-3.jpg" class="card-image" alt="Family cooking together">
-                <h3>Cooking, it's fun!</h3>
-                <p>Not only is cooking easy to learn,<br> but it can be fun for kids too!</p>
-            </div>
-        </div>
-
+            <div class="card-deck">
+                <!-- First Card -->
+                    <div class="card text-center">
+                      <img src="images/home-page/home-image-1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Healthy Recipes</h5>
+                        <p class="card-text">Kid-pleasing, delicious and full of nutritious ingredients.</p>
+                        <a href="health-education.html" class="btn btn-primary">See more</a>
+                      </div>
+                    </div>
+                    <!-- Second Card -->
+                    <div class="card text-center">
+                      <img src="images/home-page/home-image-2.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Try this one!</h5>
+                        <p class="card-text">I'm sure you won't be disapointed! Our Black Beans Tacos is the best!</p>
+                        <a href="recipes/vegetarian-recipes/black-bean-tacos.html" class="btn btn-primary">See more</a>
+                      </div>
+                    </div>
+                    <!-- Third Card -->
+                    <div class="card text-center">
+                      <img src="images/home-page/home-image-3.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Cooking, it's fun!</h5>
+                        <p class="card-text">Not only is cooking easy to learn, but it can be fun for kids too!</p>
+                        <a href="#" class="btn btn-primary">See more</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
         <!-- Second Section and Login Form -->
         <div class="row">
             <div class="col-sm">
+                    
 
-                <img src="images/home-page/home-image-4.jpg" class="card-image" style="width: 90%;" alt="Dad teaching son how to cook healthy recipe">
-                <p>If you're not a member yet, use the register button <br>
-                    <a class="btn btn-secondary" href="register.html" role="button">Register</a></p>
+                <img src="images/home-page/home-image-4.jpg" class="card-image" style="width: 100%;" alt="Dad teaching son how to cook healthy recipe">
+                <h4 class="card-title">- Bond with your loved ones -</h4>
+                <p class="card-text">Create meaningful experiences, while passing on skills and secret family 
+                        <a href="recipes/vegetarian-recipes/black-bean-tacos.html" class="text-primary">recipes</a> 
+                        from generation to generation.</p>
+                    
             </div>
 
             <!-- Form to login in the home page -->
             <div class="col-sm">
                 <form>
-                    <h3>If you're already a member <b>log in</b> here!</h3>
+                    <h3>If you're already a member <b>log in</b> here!</h3><br>
+                    <p class="font-italic">- If you're not yet a member use the Register button -</p>
                     <div class="form-group">
                         <label for="exampleInputEmail1">Email address</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -128,25 +154,11 @@
                         <label class="form-check-label" for="exampleCheck1">Remember me</label>
                     </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
+                    <a class="btn btn-secondary" href="register.html" role="button">Register</a></p>
 
                 </form>
             </div>
         </div>
-
-
-        <!-- Form -->
-        <section class="form">
-            <fieldset>
-                <legend style="text-align:center;">
-                    <h2>Search our website</h2>
-                </legend>
-                <form class="text-center" action="search">
-                    <label for="search">Insert here what you're looking for:</label>
-                    <input type="text" name="search" id="search">
-                    <input type="button" value="Search">
-                </form>
-            </fieldset>
-        </section>
 
 
         <hr>
