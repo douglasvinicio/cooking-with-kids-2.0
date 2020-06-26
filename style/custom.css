@@ -21,6 +21,10 @@ p {
     text-align: center;
 }
 
+h4 {
+    margin: 10px 0 0 0 !important;
+}
+
 
 /* Tables styling */
 table,
@@ -70,13 +74,16 @@ td {
 .img-thumbnail { max-width: 200px; }
 
 /* Aligning and Defining the size of the Images of the Home Page */
-.card-image {
+.card-image{
     /* Align Images to center inside the grids */
-    display: block;
-    margin: 10px auto;
     width: 60%;
     /* Shadow outside the images */
-    box-shadow: 10px 10px 5px grey;
+    box-shadow: 10px 10px 5px rgb(165, 164, 164);
+    border-radius: 5px;
+}
+
+.card {
+    box-shadow: 10px 10px 5px rgb(195, 198, 202);
 }
 
 
@@ -89,6 +96,7 @@ td {
     margin: 20px;
     border-radius: 10px;
 }
+
 
 
 /* Template for comments */
