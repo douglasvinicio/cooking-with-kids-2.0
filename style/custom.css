@@ -4,13 +4,15 @@ Filename: custom.css
 Made by: Douglas Vinicio, Patrick Brennan, Jessica Landry and Paul Szostak
 */
 
-body {
-    background-color: #e6e6e6 !important;
-}
+/* ==========================================================================
+    General Section / Body 
+   ========================================================================== */
+
+/* Setting the background color to the entire page */ 
+body { background-color: #e6e6e6 !important; }
 
 
 /* Aligning text to the center */
-
 h1,
 h2,
 h3,
@@ -21,7 +23,6 @@ p {
 
 
 /* Tables styling */
-
 table,
 th,
 td {
@@ -31,19 +32,44 @@ td {
     max-width: 400px;
 }
 
+/* ==========================================================================
+    Header Section / NavBar and Banner
+ ========================================================================== */
 
-/* Set the top image */
-
+/* Banner Section */
 .banner {
+    /* Positioning to center */
     display: flex;
     margin: 0 auto;
+    /* Resize */
     width: 90%;
     max-width: 900px;
 }
 
+/* Navbar CSS Section */
+.navbar .navbar-brand {
+    color: #000;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.navbar { background-color: transparent !important; }
+
+.navbar .navbar-nav { margin: 0; }
+
+.nav-image { width: 300px; }
+
+.nav-link { font-size: 1.2rem; }
+
+
+/* ==========================================================================
+   Images Styling
+   ========================================================================== */
+
+/* Recipes Pages - Resize */
+.img-thumbnail { max-width: 200px; }
 
 /* Aligning and Defining the size of the Images of the Home Page */
-
 .card-image {
     /* Align Images to center inside the grids */
     display: block;
@@ -55,53 +81,38 @@ td {
 
 
 /* Shadow outside the form */
-
 .row {
+    /* Shadow */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* Other */
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
 }
 
 
-/* temporarily removed ----> container shadow was intefering with nav bar
-.container {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
-} 
-*/
+/* Template for comments */
 
+/* ==========================================================================
+   Section comment block
+   ========================================================================== */
 
-/* ----------------------------------------------------------------
- navbar css
- --------------------------------------------------------------- */
+/* Sub-section comment block
+   ========================================================================== */
 
-.navbar {
-    background-color: transparent !important;
-}
+/**
+ * Long comment block
+ * 
+ * Short description using Doxygen-style comment format
+ *
+ * The first sentence of the long description starts here and continues on this
+ * line for a while finally concluding here at the end of this paragraph.
+ *
+ * The long description is ideal for more detailed explanations and
+ * documentation. It can include example HTML, URLs, or any other information
+ * that is deemed necessary or useful.
+ *
+ * @tag This is a tag named 'tag'
+ */
 
-.navbar .navbar-brand {
-    color: #000;
-    font-weight: bold;
-    font-size: 1.3em;
-}
-
-.navbar .navbar-nav {
-    margin: 0;
-}
-
-.nav-image {
-    width: 300px;
-}
-
-.nav-link {
-    font-size: 1.2rem;
-}
-
-
-/* ----------------------------------------------------------------
- recipe thumbnail re-sizing
- --------------------------------------------------------------- */
-
-.img-thumbnail {
-    max-width: 200px;
-}
+/* Basic comment */
