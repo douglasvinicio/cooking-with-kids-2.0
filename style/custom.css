@@ -47,45 +47,22 @@ td {
 /* Aligning and Defining the size of the Images of the Home Page */
 
 .card-image {
-    /* Align Images to center inside the grids */
-    display: block;
-    margin: 10px auto;
-    width: 60%;
-    /* Shadow outside the images */
-    box-shadow: 10px 10px 5px grey;
+  /* Align Images to center inside the grids */
+  display: block;
+  margin: 10px auto;
+  width: 60%;
+  /* Shadow outside the images */
+  box-shadow: 10px 10px 5px grey;
+}
+  /* Shadow outside the form */
+.row{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
 }
 
-
-/* Shadow outside the form */
-
-.row {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    padding: 20px;
-    margin: 20px;
-    border-radius: 10px;
+.container {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
-/* custom navbar css */
-
-.navbar {
-    background-color: transparent !important;
-}
-
-.navbar .navbar-brand {
-    color: #000;
-    font-weight: bold;
-    font-size: 1.3em;
-}
-
-.navbar .navbar-nav {
-    margin: 0;
-}
-
-.nav-image {
-    width: 300px;
-}
-
-.img-thumbnail {
-    max-width: 200px;
-}
