@@ -23,51 +23,61 @@
 </head>
 
 <body>
-    <!-- start of navbar container -->
-    <div class="mynav">
-        <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
-            <a class="navbar-brand" href="/index.html"><img class="nav-image" src="../images/cooking_with_kids_logo.png" alt="Cooking With Kids" /></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <header>
+        <div class="d-none d-lg-block">
+            <img class="banner" src="../images/header-banner.jpg" alt="Cooking With Kids" /></div>
 
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav nav-fill ml-auto">
-                    <li class="nav-item dropdown nav-fill">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdown03">
-                            <a class="text-center dropdown-item" href="/about/contact-us.html">Contact Us</a>
-                            <a class="text-center dropdown-item" href="/about/our-mission.html">Our Mission</a>
-                            <a class="text-center dropdown-item" href="/about/faq.html">FAQ</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Recipes</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdown03">
-                            <a class="text-center dropdown-item" href="/recipes/generic-recipes.html">Generic</a>
-                            <a class="text-center dropdown-item" href="/recipes/vegetarian-recipes.html">Vegetarian</a>
-                            <a class="text-center dropdown-item" href="/recipes/gluten-free-recipes.html">Gluten-Free</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/health-education.html">Health</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/login.html">Login</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/register.html">Register</a>
-                    </li>
+        <!-- start of navbar container -->
+        <div class="mynav">
+            <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+                <a class="navbar-brand d-lg-none" href="/index.html"><img class="nav-image" src="../images/cooking_with_kids_logo.png" alt="Cooking With Kids" /></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+                </button>
 
-                </ul>
-                <form class="form-inline mx-2 my-2 my-sm-0 justify-content-center">
-                    <input class="form-control" type="text" placeholder="Search">
-                    <button class="btn btn-outline-success my-2 my-md-0" type="submit">Search</button>
-                </form>
-            </div>
-        </nav>
-    </div>
-    <!-- end of navbar container -->
+                <div class="collapse navbar-collapse justify-content-center" id="navbarResponsive">
+                    <ul class="navbar-nav nav-fill">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown nav-fill">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown03">
+                                <a class="text-center dropdown-item" href="/about/contact-us.html">Contact Us</a>
+                                <a class="text-center dropdown-item" href="/about/our-mission.html">Our Mission</a>
+                                <a class="text-center dropdown-item" href="/about/faq.html">FAQ</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Recipes</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown03">
+                                <a class="text-center dropdown-item" href="/recipes/generic-recipes.html">Generic</a>
+                                <a class="text-center dropdown-item" href="/recipes/vegetarian-recipes.html">Vegetarian</a>
+                                <a class="text-center dropdown-item" href="/recipes/gluten-free-recipes.html">Gluten-Free</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/health-education.html">Health</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/login.html">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/register.html">Register</a>
+                        </li>
+
+                    </ul>
+                    <div class="d-none d-lg-block">
+                        <form class="form-inline mx-2 my-2 my-sm-0 justify-content-center">
+                            <input class="form-control" type="text" placeholder="Search">
+                            <button class="btn btn-outline-success my-2 my-md-0" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- end of navbar container -->
+    </header>
     <!-- start of main page container -->
     <div class="container">
         <h2>Vegetarian Recipes</h2>

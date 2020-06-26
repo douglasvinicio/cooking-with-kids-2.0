@@ -38,6 +38,7 @@ td {
     display: flex;
     margin: 0 auto;
     width: 90%;
+    max-width: 900px;
 }
 
 
@@ -87,6 +88,10 @@ td {
 
 .nav-image {
     width: 300px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
 }
 
 
