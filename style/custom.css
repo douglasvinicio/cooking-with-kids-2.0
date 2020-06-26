@@ -63,9 +63,12 @@ td {
     border-radius: 10px;
 }
 
+
+/* temporarily removed ----> container shadow was intefering with nav bar
 .container {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+} 
+*/
 
 
 /* ----------------------------------------------------------------
