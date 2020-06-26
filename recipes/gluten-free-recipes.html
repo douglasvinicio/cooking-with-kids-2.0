@@ -5,114 +5,131 @@
     <!-- Meta Tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="keywords" content="healthy food, health recipes, cooking with kids, cooking, recipes for kids, recipes, recipes for parents, parents,recipes,gluten-free recipes, gluten-free" />
-    <meta name="description" content="Gluten-Free recipes selected based on nutritional value and healthy ingredients."/>
+    <meta name="keywords" content="cooking with kids, cooking, kids, recipes for kids, recipes, recipes for parents, parents, vegitarian recipes, vegitarian, gluten-free recipes, gluten-free" />
+    <meta name="description" content="A recipe website focused on creating fun and productive cooking experiences with the goal of bringing the whole family together including children, parents, uncles and aunts." />
+    <!-- Bootstrap jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS, JavaScript, Popper.js -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <!-- Custom CSS -->
-    <link rel="stylesheet" type="text/css" href="style/styles.css">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/style/custom.css">
+
     <!-- Favicon -->
     <link rel="shortcut icon" href="images/spatula-favicon.png" type="image/x-icon" />
     <!-- Title -->
-    <title>Cooking With Kids - Gluten Free Healthy Recipes easy to prepare. </title>
+    <title>Gluten-Free Recipes | Cooking With Kids</title>
 </head>
 
 <body>
+    <!-- start of navbar container -->
+    <div class="mynav">
+        <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+            <a class="navbar-brand" href="/index.html"><img class="nav-image" src="../images/cooking_with_kids_logo.png" alt="Cooking With Kids" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-<div class="content"> <!-- set entire page (except header) to be contained within this content divider -->
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav nav-fill ml-auto">
+                    <li class="nav-item dropdown nav-fill">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown03">
+                            <a class="text-center dropdown-item" href="/about/contact-us.html">Contact Us</a>
+                            <a class="text-center dropdown-item" href="/about/our-mission.html">Our Mission</a>
+                            <a class="text-center dropdown-item" href="/about/faq.html">FAQ</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Recipes</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown03">
+                            <a class="text-center dropdown-item" href="/recipes/generic-recipes.html">Generic</a>
+                            <a class="text-center dropdown-item" href="/recipes/vegetarian-recipes.html">Vegetarian</a>
+                            <a class="text-center dropdown-item" href="/recipes/gluten-free-recipes.html">Gluten-Free</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/health-education.html">Health</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/register.html">Register</a>
+                    </li>
 
-    <!-- Beginning of the Header Scetion -->
-    <header>
-        <img class="home-background" src="../images/header-banner.jpg" alt="Cooking With Kids" /> <!-- main logo used for header (960 pixels wide) -->
-    <!-- Navbar with style applied for the dropdown menu -->
-    <nav class="navbar">
-            <a href="../index.html">Home</a>
-            <div class="dropdown">
-                <button class="dropbtn">About
-                    <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                    <a href="../about/contact-us.html">Contact us</a>
-                    <a href="../about/our-mission.html">Our mission</a>
-                </div>
+                </ul>
+                <form class="form-inline mx-2 my-2 my-sm-0 justify-content-center">
+                    <input class="form-control" type="text" placeholder="Search">
+                    <button class="btn btn-outline-success my-2 my-md-0" type="submit">Search</button>
+                </form>
             </div>
-            <div class="dropdown">
-                <button class="dropbtn">Recipes
-                    <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                    <a href="generic-recipes.html">Generic</a>
-                    <a href="vegetarian-recipes.html">Vegetarian</a>
-                    <a href="gluten-free-recipes.html">Gluten-Free</a>
-                </div>
-            </div>
-            <a href="../health-education.html">Health Education</a>
-            <a href="../about/faq.html">FAQ</a>
-            <a href="../login.html">Login</a>
-            <a href="../register.html">Register</a>
         </nav>
-    </header>
-
-    <section id="main">
-        <h1>GLUTEN-FREE RECIPES</h1>
-        <div class="row">
-            <div class="column" style="padding: 10px">
-                <div class="container">
-                    <a href="vegetarian-recipes/black-bean-tacos.html">
-                    <img src="../images/recipes/chicken-pie.jpg" alt="Chicken Pie" class="image"></a>
-                    <div class="overlay">CHICKEN PIE</div>
-                  </div> 
-            </div>
-            <div class="column" style="padding: 10px">
-                <div class="container">
-                    <a href="vegetarian-recipes/black-bean-tacos.html">
-                    <img src="../images/recipes/crepes.jpg" alt="Crepes" class="image"></a>
-                    <div class="overlay">CREPES</div>
-                  </div> 
-            </div>
-            <div class="column" style="padding: 10px">
-                <div class="container">
-                    <a href="vegetarian-recipes/black-bean-tacos.html">
-                    <img src="../images/recipes/frittata.jpg" alt="Frittata" class="image"></a>
-                    <div class="overlay">FRITTATA</div>
-                  </div> 
-            </div>
-        </div>
-        <div class="row">
-            <div class="column" style="padding: 10px">
-                <div class="container">
-                    <a href="vegetarian-recipes/black-bean-tacos.html">
-                    <img src="../images/recipes/gluten-free-pizza.jpg" alt="Pizza" class="image"></a>
-                    <div class="overlay">PIZZA</div>
-                  </div> 
-              </div>
-              <div class="column" style="padding: 10px">
-                <div class="container">
-                    <a href="vegetarian-recipes/black-bean-tacos.html">
-                    <img src="../images/recipes/lemon-cake.jpg" alt="Lemon Cake" class="image"></a>
-                    <div class="overlay">LEMON CAKE</div>
-                  </div> 
-              </div>
-              <div class="column" style="padding: 10px">
-                <div class="container">
-                    <a href="vegetarian-recipes/black-bean-tacos.html">
-                    <img src="../images/recipes/ratatouille.jpg" alt="Ratatouille" class="image"></a>
-                    <div class="overlay">RATATOUILLE</div>
-                  </div> 
-              </div>
     </div>
-    </section> <!-- end of main section -->
+    <!-- end of navbar container -->
+    <!-- start of main page container -->
+    <div class="container">
+        <h2>Gluten-Free Recipes</h2>
+        <hr>
+        <ul class="list-unstyled">
+            <li class="media">
+                <a href="vegetarian-recipes/black-bean-tacos.html">
+                    <img class="ml-3 mr-3 img-thumbnail" src="../images/recipes/chicken-pie.jpg" alt="Chicken Pie"></a>
+                <div class="media-body mb-3">
+                    <h5 class="mt-0 mb-1">Chicken Pie</h5>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni voluptate aspernatur harum in, atque reprehenderit animi. Consequatur qui itaque veritatis!
+                </div>
+            </li>
+            <li class="media">
+                <a href="vegetarian-recipes/black-bean-tacos.html">
+                    <img class="ml-3 mr-3 img-thumbnail" src="../images/recipes/crepes.jpg" alt="Crepes"></a>
+                <div class="media-body mb-3">
+                    <h5 class="mt-0 mb-1">Crepes</h5>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur id totam sit, facere fugit quaerat accusantium exercitationem maxime optio enim. </div>
+            </li>
+            <li class="media">
+                <a href="vegetarian-recipes/black-bean-tacos.html">
+                    <img class="ml-3 mr-3 img-thumbnail" src="../images/recipes/frittata.jpg" alt="Frittata"></a>
+                <div class="media-body mb-3">
+                    <h5 class="mt-0 mb-1">Frittata</h5>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium modi quibusdam vel delectus fugit ea laudantium at culpa vero officia. </div>
+            </li>
+            <li class="media">
+                <a href="vegetarian-recipes/black-bean-tacos.html">
+                    <img class="ml-3 mr-3 img-thumbnail" src="../images/recipes/gluten-free-pizza.jpg" alt="Pizza"></a>
+                <div class="media-body mb-3">
+                    <h5 class="mt-0 mb-1">Pizza</h5>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis totam architecto excepturi deleniti nulla recusandae ab corrupti deserunt optio quo. </div>
+            </li>
+            <li class="media">
+                <a href="vegetarian-recipes/black-bean-tacos.html">
+                    <img class="ml-3 mr-3 img-thumbnail" src="../images/recipes/lemon-cake.jpg" alt="Lemon Cake"></a>
+                <div class="media-body mb-3">
+                    <h5 class="mt-0 mb-1">Lemon Cake</h5>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum beatae nobis, obcaecati consequuntur facere autem dicta reprehenderit? Perferendis, nemo quaerat. </div>
+            </li>
+            <li class="media">
+                <a href="vegetarian-recipes/black-bean-tacos.html">
+                    <img class="ml-3 mr-3 img-thumbnail" src="../images/recipes/ratatouille.jpg" alt="Ratatouille"></a>
+                <div class="media-body mb-3">
+                    <h5 class="mt-0 mb-1">Ratatouille</h5>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta porro quod iure fuga provident sunt molestiae eos perspiciatis doloribus quasi? </div>
+            </li>
+        </ul>
+    </div>
+    <hr>
     <footer style="text-align: center;">
-        <h5><a href="#top">Back to Top</a></h5>
+        <h5><a href="#top" class="text-dark">Back to Top</a></h5>
         <a href="https://www.facebook.com/"><img src="../images/assets/fb_logo_small.png" style="width: 30px; height: 30px;" alt="Facebook page" /></a>
-        <a href="https://www.pinterest.com/"><img src="../images/assets/pinterest_logo_small.png" style="width: 30px; height: 30px;" alt="Pinterest page"/></a>
-        <a href="https://www.instagram.com/"><img src="../images/assets/insta_logo_small.png" style="width: 30px; height: 30px;" alt="Instagram page"/></a>
-        <a href="https://www.twitter.com/"><img src="../images/assets/twitter_logo_small.png" style="width: 30px; height: 30px;" alt="Twitter Page"/></a><br />
+        <a href="https://www.pinterest.com/"><img src="../images/assets/pinterest_logo_small.png" style="width: 30px; height: 30px;" alt="Pinterest page" /></a>
+        <a href="https://www.instagram.com/"><img src="../images/assets/insta_logo_small.png" style="width: 30px; height: 30px;" alt="Instagram page" /></a>
+        <a href="https://www.twitter.com/"><img src="../images/assets/twitter_logo_small.png" style="width: 30px; height: 30px;" alt="Twitter Page" /></a><br />
         <small style="text-align: center;">
             <i>&copy; 2020 Cooking With Kids. Website Design by Douglas Vinicio, Paul Szostak, Patrick Brennan, and Jessica Landry.</i>
     </small>
     </footer>
 
-</div>
 </body>
+
 </html>
