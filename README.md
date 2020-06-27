@@ -41,7 +41,7 @@
 <table>
   <tr>
     <td align="center"><a href="https://www.linkedin.com/in/douglasvinicio/"><img src="https://trello-attachments.s3.amazonaws.com/5eab8674a86a907c46dbf222/128x128/72740d1400b95b82bea9ea85b7c1b592/douglasvinicio.png" width="100px;" alt="Douglas Vinicio"/><br /><sub><b>Douglas Vinicio</b></sub></a><br /><a href="https://github.com/douglasvinicio"title="Code">💻</a></td>
-    <td align="center"><a href="https://www.linkedin.com/in/"><img src="" width="100px;" alt="Paul Szostak"/><br /><sub><b>Paul Szostak</b></sub></a><br /><a href="https://github.com/"title="Code">💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/pzszo/"><img src="https://avatars3.githubusercontent.com/u/64944331?s=400&u=7719bef3b85c1f2798df0311f7e2e8d5b1e40d82&v=4" width="100px;" alt="Paul Szostak"/><br /><sub><b>Paul Szostak</b></sub></a><br /><a href="https://github.com/pzszo"title="Code">💻</a></td>
      <td align="center"><a href="https://www.linkedin.com/in/"><img src="" width="100px;" alt="Patrick Brennan"/><br /><sub><b>Patrick Brennan</b></sub></a><br /><a href="https://github.com/"title="Code">💻</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/"><img src="" width="100px;" alt="Jessica landry"/><br /><sub><b>Jessica Landry</b></sub></a><br /><a href="https://github.com/netoht/"title="Code">💻</a></td>
 
