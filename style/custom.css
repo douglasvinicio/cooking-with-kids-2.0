@@ -17,7 +17,9 @@ h1,
 h2,
 h3,
 h4,
-p {
+p,
+small,
+footer {
     text-align: center;
 }
 
@@ -82,10 +84,10 @@ td {
     border-radius: 5px;
 }
 
+/* Shadow outside the card in Home Page */
 .card {
     box-shadow: 10px 10px 5px rgb(195, 198, 202);
 }
-
 
 /* Shadow outside the form */
 .row {
@@ -97,6 +99,23 @@ td {
     border-radius: 10px;
 }
 
+/* Register Page
+   ========================================================================== */
+/* Removing padding from Forms in Register Page*/
+.form-group {
+    padding: 0 !important;
+}
+
+
+/* Footer Section
+   ========================================================================== */
+/* Footer Social Media Icons */
+.footer-icon {
+    width: 30px; height: 30px;
+    margin-bottom: 10px;
+}
+/* Padding added to separate from container */
+.footer-copyright { padding-bottom: 20px;}
 
 
 /* Template for comments */
