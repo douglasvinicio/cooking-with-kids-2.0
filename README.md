@@ -1,5 +1,5 @@
-# Cooking-With-Kids-IPD22-John Abbott 
-#### Deployed at GitHub Pages : https://douglasvinicio.github.io/Cooking-With-Kids-IPD22/
+# Cooking With Kids - IPD22 - John Abbott 
+#### Deployed at GitHub Pages : https://douglasvinicio.github.io/cooking-with-kids-2.0/
 
 
 
@@ -13,13 +13,15 @@
 
 
 <!-- show case/gif section -->
+<!-- Ignored by now! Make gifs once the website is done.  
+
 <p align="center">
     <img alt="" height="300" src="" />
     <img alt="" height="300" src="" />
 
   </a>
 </p>
-
+-->
 ## Brainstorming Process 
 
 
