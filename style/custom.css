@@ -8,9 +8,9 @@ Made by: Douglas Vinicio, Patrick Brennan, Jessica Landry and Paul Szostak
     General Section / Body 
    ========================================================================== */
 
-/* Setting the background color to the entire page */ 
-body { 
-    background-color: #e6e6e6 !important; 
+/* Setting the background color to the entire page */
+body {
+    background-color: #e6e6e6 !important;
     max-width: 1100px;
     margin: 0 auto;
 }
@@ -63,13 +63,21 @@ td {
     font-size: 1.3em;
 }
 
-.navbar { background-color: transparent !important; }
+.navbar {
+    background-color: transparent !important;
+}
 
-.navbar .navbar-nav { margin: 0; }
+.navbar .navbar-nav {
+    margin: 0;
+}
 
-.nav-image { width: 300px; }
+.nav-image {
+    width: 300px;
+}
 
-.nav-link { font-size: 1.2rem; }
+.nav-link {
+    font-size: 1.2rem;
+}
 
 
 /* ==========================================================================
@@ -77,10 +85,12 @@ td {
    ========================================================================== */
 
 /* Recipes Pages - Resize */
-.img-thumbnail { max-width: 200px; }
+.img-thumbnail {
+    max-width: 200px;
+}
 
 /* Aligning and Defining the size of the Images of the Home Page */
-.card-image{
+.card-image {
     /* Align Images to center inside the grids */
     width: 60%;
     /* Shadow outside the images */
@@ -111,6 +121,45 @@ td {
 
 
 
+/* ==========================================================================
+   Login Form Styles
+   ========================================================================== */
+.form-signin {
+    width: 80%;
+    max-width: 400px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.form-signin .checkbox {
+    font-weight: 400;
+}
+
+.form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+
 /* Register Page
    ========================================================================== */
 /* Removing padding from Forms in Register Page*/
@@ -123,11 +172,15 @@ td {
    ========================================================================== */
 /* Footer Social Media Icons */
 .footer-icon {
-    width: 30px; height: 30px;
+    width: 30px;
+    height: 30px;
     margin-bottom: 10px;
 }
+
 /* Padding added to separate from container */
-.footer-copyright { padding-bottom: 20px;}
+.footer-copyright {
+    padding-bottom: 20px;
+}
 
 
 /* Template for comments */
