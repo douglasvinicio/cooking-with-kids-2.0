@@ -42,6 +42,11 @@ td {
     max-width: 400px;
 }
 
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
+
 /* ==========================================================================
     Header Section / NavBar and Banner
  ========================================================================== */
@@ -162,8 +167,8 @@ td {
 
 /* Register Page
    ========================================================================== */
-/* Removing padding from Forms in Register Page*/
-.form-group {
+/* Removing padding from Forms in Register Page */
+.col-md-4{
     padding: 0 !important;
 }
 
