@@ -93,6 +93,12 @@ td {
     box-shadow: 10px 10px 5px rgb(195, 198, 202);
 }
 
+/* Allow recipe pages to show cards as inline-blocks */
+.card-recipe {
+    display: inline-block !important;
+    margin-bottom: 2rem;
+}
+
 /* Shadow outside the form */
 .row {
     /* Shadow */
