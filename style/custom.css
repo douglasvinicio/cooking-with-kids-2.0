@@ -215,6 +215,108 @@ ul {
 }
 
 
+/* ==========================================================================
+   Contact-us Page
+   ========================================================================== */
+ul#list-style-type-none {
+    list-style-type: none;
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+@keyframes bounceIn {
+    0%{
+      opacity: 0;
+      transform: scale(0.3) translate3d(0,0,0);
+    }
+    50%{
+      opacity: 0.9;
+      transform: scale(1.1);
+    }
+    80%{
+      opacity: 1;
+      transform: scale(0.89);
+    }
+    100%{
+      opacity: 1;
+      transform: scale(1) translate3d(0,0,0);
+    }
+  }
+  
+.animated1 {
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+    opacity: 0
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
+
+.list1 {
+    animation-delay: 2s;
+}
+
+.list2 {
+    animation-delay: 4s;
+}
+
+.list3 {
+    animation-delay: 6s;
+}
+
+.animated2 {
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-delay: 8s;
+}
+
+.animatedBounceIn {
+    opacity: 0;
+}
+
+.bounceIn {
+    opacity: 0;
+    animation-name: bounceIn;
+}
+
+
+/* FAQ Page*/
+.question {
+    color: #000;
+}
+
+.question:hover {
+    color: green;
+    text-decoration: none;
+}
 
 /* Template for comments */
 
