@@ -1,107 +1,190 @@
-<!DOCTYPE html>
+<!-- 
+    Script by : Douglas Vinicio
+    Last Update :  26 June, 2020
+    Filename : register.html
+ -->
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <!-- Meta Tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="keywords" content="cooking with kids, cooking, kids, recipes for kids, recipes, recipes for parents, parents, vegitarian recipes, vegitarian, gluten-free recipes, gluten-free" />
-    <meta name="description" content="A recipe website focused on creating fun and productive cooking experiences with the goal of bringing the whole family together including children, parents, uncles and aunts."/>
+    <meta name="keywords"
+        content="cooking with kids, cooking, kids, recipes for kids, recipes, recipes for parents, parents, vegitarian recipes, vegitarian, gluten-free recipes, gluten-free" />
+    <meta name="description"
+        content="A recipe website focused on creating fun and productive cooking experiences with the goal of bringing the whole family together including children, parents, uncles and aunts." />
+    <!-- Bootstrap jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS, JavaScript, Popper.js -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
     <!-- Custom CSS -->
-    <link rel="stylesheet" type="text/css" href="style/styles.css">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style/custom.css">
     <!-- Favicon -->
     <link rel="shortcut icon" href="images/spatula-favicon.png" type="image/x-icon" />
     <!-- Title -->
-    <title>Cooking With Kids - A recipe website focused on create fun and productive cooking experiences for the family.</title>
+    <title>Cooking With Kids - A recipe website focused on create fun and productive cooking experiences for the family.
+    </title>
 </head>
 
 
 <body>
-    <div class="content">
-        <!-- set entire page (except header) to be contained within this content divider -->
-        <!-- Beginning of the Header Scetion -->
-        <header>
-                <img class="home-background" src="images/header-banner.jpg" alt="Cooking With Kids" />
-            
-            <!-- main logo used for header (960 pixels wide) -->
-            <!-- Navbar with style applied for the dropdown menu -->
-            <nav class="navbar">
-                     <a href="index.html">Home</a>
-                        <div class="dropdown">
-                            <button class="dropbtn">About
-                                <i class="fa fa-caret-down"></i>
-                            </button>
-                            <div class="dropdown-content">
-                                <a href="about/contact-us.html">Contact us</a>
-                                <a href="about/our-mission.html">Our Mission</a>
-                            </div>
-                        </div>
-                        <div class="dropdown">
-                            <button class="dropbtn">Recipes
-                                <i class="fa fa-caret-down"></i>
-                            </button>
-                            <div class="dropdown-content">
-                                <a href="recipes/generic-recipes.html">Generic</a>
-                                <a href="recipes/vegetarian-recipes.html">Vegetarian</a>
-                                <a href="recipes/gluten-free-recipes.html">Gluten-Free</a>
-                            </div>
-                        </div>
-                    <a href="health-education.html">Health Education</a>
-                     <a href="about/faq.html">FAQ</a>
-                    <a href="login.html">Login</a>
-                    <a href="register.html">Register</a>
-            </nav>
-        </header>
 
-        <!-- Thumbinals of the home images -->
-            <h1>Your recipe website!</h1><br>
-            <div class="row">
-                <div class="column">
-                    <div class="zoom">
-                        <img src="images/home-page/home-image-1.jpg" style="width: 45%;"
-                            alt="Dad teaching son how to cook healthy recipe"></div>
-                    <h3>Healthy Recipes</h3>
-                    <p>Kid-pleasing, delicious and full of nutritious ingredients</p>
+    <!-- Beginning of the Header Scetion -->
+    <header>
+        <div class="d-none d-lg-block">
+            <img class="banner" src="images/header-banner.jpg" alt="Cooking With Kids" /></div>
+        <!-- Start of navbar container -->
+        <div class="mynav">
+            <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+                <a class="navbar-brand d-lg-none" href="/index.html"><img class="nav-image"
+                        src="images/cooking_with_kids_logo.png" alt="Cooking With Kids" /></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-center" id="navbarResponsive">
+                    <ul class="navbar-nav nav-fill">
+                        <li class="nav-item dropdown nav-fill">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">About</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown03">
+                                <a class="text-center dropdown-item" href="about/contact-us.html">Contact Us</a>
+                                <a class="text-center dropdown-item" href="about/our-mission.html">Our Mission</a>
+                                <a class="text-center dropdown-item" href="about/faq.html">FAQ</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">Recipes</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown03">
+                                <a class="text-center dropdown-item" href="recipes/generic-recipes.html">Generic</a>
+                                <a class="text-center dropdown-item"
+                                    href="recipes/vegetarian-recipes.html">Vegetarian</a>
+                                <a class="text-center dropdown-item"
+                                    href="recipes/gluten-free-recipes.html">Gluten-Free</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="health-education.html">Health</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="register.html">Register</a>
+                        </li>
+
+                    </ul>
                 </div>
-                <div class="column">
-                    <div class="zoom">
-                        <img src="images/home-page/home-image-2.jpg" style="width: 50%;"
-                            alt="Dad cooking with his daughter, having fun"></div>
-                    <h3>Bond with your loved ones</h3>
-                    <p>Create meaningful experiences, while passing on skills<br> and secret family recipes from generation to generation</p>
-                </div>
-                <div class="column">
-                    <div class="zoom">
-                        <img src="images/home-page/home-image-3.jpg" style="width: 50%;" alt="Family cooking together"></div>
-                    <h3>Cooking, it's fun!</h3>
-                    <p>Not only is cooking easy to learn,<br> but it can be fun for kids too!</p>
-                </div>
-            </div>
-            <hr>
-            <h2>Are you looking for something? We can help!</h2>
-            <section class="form">
+            </nav>
+        </div>
+        <!-- End of navbar container -->
+    </header>
+
+    <!-- First section of the Home page - Cards with Images and Search Form -->
+    <div class="container">
+
+        <div class="row">
+
+            <!-- Search Form -->
+            <section class="col">
                 <fieldset>
-                    <legend style="text-align:center;">
-                        <h2>Search our website</h2>
+                    <legend>
+                        <h3>Search our website</h3>
                     </legend>
-                    <form action="search">
-                        <label for="search">Insert here what you're looking for:</label>
-                        <input type="text" name="search" id="search">
-                        <input type="button" value="Search">
+                    <form class="text-center" action="search">
+                        <input class="form-control form-control-lg" type="text"
+                            placeholder="Let's find some recipes.."><br>
+                        <button type="button" class="btn btn-secondary">Search</button>
                     </form>
                 </fieldset>
             </section>
-            <hr>
-            <footer style="text-align: center;">
-                <h5><a href="#top">Back to Top</a></h5>
-                <a href="https://www.facebook.com/"><img src="images/assets/fb_logo_small.png" style="width: 30px; height: 30px;" alt="Facebook page" /></a>
-                <a href="https://www.pinterest.com/"><img src="images/assets/pinterest_logo_small.png" style="width: 30px; height: 30px;" alt="Pinterest page"/></a>
-                <a href="https://www.instagram.com/"><img src="images/assets/insta_logo_small.png" style="width: 30px; height: 30px;" alt="Instagram page"/></a>
-                <a href="https://www.twitter.com/"><img src="images/assets/twitter_logo_small.png" style="width: 30px; height: 30px;" alt="Twitter Page"/></a><br />
-                <small style="text-align: center;">
-                <i>&copy; 2020 Cooking With Kids. Website Design by Douglas Vinicio, Paul Szostak, Patrick Brennan, and Jessica Landry.</i>
-            </small>
+        </div>
+
+        <div class="row">
+            <div class="card-deck">
+                <!-- First Card -->
+                <div class="card text-center">
+                    <img src="images/home-page/home-image-1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Healthy Recipes</h5>
+                        <p class="card-text">Kid-pleasing, delicious and full of nutritious ingredients.</p>
+                        <a href="health-education.html" class="btn btn-primary">See more</a>
+                    </div>
+                </div>
+                <!-- Second Card -->
+                <div class="card text-center">
+                    <img src="images/home-page/home-image-2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Try this one!</h5>
+                        <p class="card-text">I'm sure you won't be disapointed! Our Black Beans Tacos is the best!</p>
+                        <a href="recipes/vegetarian-recipes/black-bean-tacos.html" class="btn btn-primary">See more</a>
+                    </div>
+                </div>
+                <!-- Third Card -->
+                <div class="card text-center">
+                    <img src="images/home-page/home-image-3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Cooking, it's fun!</h5>
+                        <p class="card-text">Not only is cooking easy to learn, but it can be fun for kids too!</p>
+                        <a href="#" class="btn btn-primary">See more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Second Section and Login Form -->
+        <div class="row">
+            <div class="col-sm">
+                <img src="images/home-page/home-image-4.jpg" class="card-image" style="width: 100%;"
+                    alt="Dad teaching son how to cook healthy recipe">
+                <h4 class="card-title">- Bond with your loved ones -</h4>
+                <p class="card-text">Create meaningful experiences, while passing on skills and secret family
+                    <a href="recipes/vegetarian-recipes/black-bean-tacos.html" class="text-primary">recipes</a>
+                    from generation to generation.</p>
+            </div>
+            <!-- Form to login in the home page -->
+            <div class="col-sm">
+                <form>
+                    <h3>If you're already a member <b>log in</b> here!</h3><br>
+                    <p class="font-italic"> If you're not yet a member use the Register button </p>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <a class="btn btn-secondary" href="register.html" role="button">Register</a></p>
+                </form>
+            </div>
+        </div>
+        <hr>
+        <!-- Footer and Copyright Section -->
+            <footer>
+                <h6><a href="#top">Back to Top</a></h6>
+                <a href="https://www.facebook.com/"><img class="footer-icon" src="images/assets/fb_logo_small.png" alt="Facebook page"/></a>
+                <a href="https://www.pinterest.com/"><img class="footer-icon" src="images/assets/pinterest_logo_small.png" alt="Pinterest page"/></a>
+                <a href="https://www.instagram.com/"><img class="footer-icon" src="images/assets/insta_logo_small.png" alt="Instagram page"/></a>
+                <a href="https://www.twitter.com/"><img class="footer-icon" src="images/assets/twitter_logo_small.png" alt="Twitter Page"/></a><br/>
+                <small>
+                    <i class="footer-copyright">&copy; 2020 Cooking With Kids. Website Design by Douglas Vinicio, Paul Szostak, Patrick Brennan, and Jessica Landry.</i>
+                </small>
             </footer>
         </div>
     </body>
