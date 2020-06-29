@@ -60,8 +60,8 @@
                                 </div>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Recipes</a>
-                                <div class="dropdown-menu" aria-labelledby="dropdown03">
+                                <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Recipes</a>
+                                <div class="dropdown-menu" aria-labelledby="dropdown04">
                                     <a class="text-center dropdown-item" href="recipes/generic-recipes.html">Generic</a>
                                     <a class="text-center dropdown-item" href="recipes/vegetarian-recipes.html">Vegetarian</a>
                                     <a class="text-center dropdown-item" href="recipes/gluten-free-recipes.html">Gluten-Free</a>
@@ -88,11 +88,15 @@
             </div>
             <!-- End of navbar container -->
         </header>
-
     <div class="row">
+        <div class="col-md-12">
+                <h1 class="text-info">Register yourself</h1>
+                <p>Fill up the form with your info and wait for our email.</p>
+                <hr>
+        </div>
         <div class="col-md">
             <form>
-                <legend>Personal Info:</legend>
+                <h2 style="text-align: left;">Personal Info:</h2>
                 <!-- First and Last name -->
                 <div class="form-row">
                         <div class="form-group col-md-5">
@@ -106,7 +110,6 @@
                             </div>
                 </div>
                 <!-- Email -->
-                <form>
                     <div class="form-row">
                         <div class="form-group col-md-12">
                             <label for="inputEmail4">Email</label>
@@ -162,8 +165,8 @@
                     <hr>
                     <fieldset>
                         <div class="form-group col-md-4">
-                            <label for="inputProvince">How many kids?</label>
-                            <select id="inputProvince" class="form-control">
+                            <label for="numberOfChildren">How many kids?</label>
+                            <select id="numberOfChildren" class="form-control">
                                 <option selected>Choose...</option>
                                 <option value="0">None</option>
                                 <option value="1">One</option>
@@ -178,22 +181,21 @@
                     <hr>
                     <div class="form-group">
                     <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="gridCheck">
-                            <label class="form-check-label" for="gridCheck">
+                            <input class="form-check-input" type="checkbox" id="ageConfirm">
+                            <label class="form-check-label" for="ageConfirm">
                                 I have more than 18 years old
                             </label>
                         </div>
                     
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="gridCheck">
-                                <label class="form-check-label" for="gridCheck">
-                                    I agree with the terms and conditions
+                                <input class="form-check-input" type="checkbox" id="agreeConfirm">
+                                <label class="form-check-label" for="agreeConfirm">
+                                    I agree with the <a href="">terms and conditions</a>
                                 </label>
                             </div>
                         </div>
                     <button type="submit" class="btn btn-primary">Register</button>
                 </form>
-            </form>
         </div>
     </div>
         <!-- Footer and Copyright Section -->
