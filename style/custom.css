@@ -318,28 +318,3 @@ ul#list-style-type-none {
     text-decoration: none;
 }
 
-/* Template for comments */
-
-/* ==========================================================================
-   Section comment block
-   ========================================================================== */
-
-/* Sub-section comment block
-   ========================================================================== */
-
-/**
- * Long comment block
- * 
- * Short description using Doxygen-style comment format
- *
- * The first sentence of the long description starts here and continues on this
- * line for a while finally concluding here at the end of this paragraph.
- *
- * The long description is ideal for more detailed explanations and
- * documentation. It can include example HTML, URLs, or any other information
- * that is deemed necessary or useful.
- *
- * @tag This is a tag named 'tag'
- */
-
-/* Basic comment */
